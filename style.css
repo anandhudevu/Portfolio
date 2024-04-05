@@ -1,0 +1,183 @@
+*{
+    font-family: "Rubik Gemstones", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+.navbar{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin-left: 125px;
+    align-items: center;
+}
+#logo{
+    width: 163px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin: 10px 30px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.link:hover{
+    color: red;
+}
+.title{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.title h1{
+    font-size: 65px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+
+}
+#steel{
+    color: orange;
+}
+.title p{
+    font-size: 20;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.title a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 7px;
+    display: inline-block;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+.imggrp{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: bottom 1s , left 2s;
+}
+.images:hover #shape{
+    bottom: 70px;
+}
+.images:hover #girl{
+    left: 40%;
+}
+#about{
+    margin: 13% 8% 0px 8%;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-size: 30px;
+    font-weight: 60;
+}
+.about_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+    margin-top: 3%;
+
+}
+.about_image img{
+    width: 81%;
+}
+.about details p{
+    font-size: 20px;
+}
+.information{
+    margin-top: 20px;
+}
+.infobox{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.infobox span{
+    margin-left: 10px;
+}
+#skills{
+    margin: 8% 8% 0px 8% ;
+}
+.skill_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+    margin-top: 4%;
+    
+}
+.skill_image img{
+width: 90%;
+margin-left: 4rem;
+}
+.progress_bar{
+    margin-top: 2rem;
+}
+.bar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem opx;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.bar_container h3{
+font-size: 20px;
+font-weight: 600;
+}
+.bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+
+}
+.html_bar{
+    background-color: orange;
+    width: 95%;
+}
+.CSS_bar{
+    background-color: orange;
+    width: 91%;
+}
+.js_bar{
+    background-color: orange;
+    width: 85%;
+}
+.react_bar{
+    background-color: orange;
+    width: 89%;
+}
+.icon_set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
